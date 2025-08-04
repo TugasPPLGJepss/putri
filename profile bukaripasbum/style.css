@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: skyblue;
+    color: white;
+    padding: 1rem;
+}
+nav a:hover {
+    color: blue;
+}
