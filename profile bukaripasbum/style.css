@@ -16,10 +16,95 @@ nav a{
     color: white;
 }
 header{
-    background-color: skyblue;
+  background: #93acd9;
+background: radial-gradient(circle, rgba(147, 172, 217, 1) 0%, rgba(164, 197, 235, 1) 100%);
     color: white;
     padding: 1rem;
 }
 nav a:hover {
     color: blue;
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: #ebd9c3;
+background: radial-gradient(circle, rgba(235, 217, 195, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    padding: 3rem;
+}
+.hero img{
+    width: 150px;
+    border-radius: 100%;
+    margin-right: 2rem;
+}
+
+         .btn-grad {background-image: linear-gradient(to right, #83a4d4 0%, #b6fbff  51%, #83a4d4  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+h1,p{
+    margin: 0;
+}
+.skilshai{
+    display: flex;
+}
+         
+         .btn-grad1 {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+         .btn-grad1 {
+            width: 15rem;
+            height: 1rem;
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad1:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+        .projectcard{
+            background-color: rgb(243, 230, 215);
+            padding: 1rem;
+            border-left: 5px solid rgb(186, 233, 252);
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+         .socialicons{
+            font-size: 2rem;
+            margin-right: 15px;
+            color: rgb(245, 229, 209);
+            transition: 0.3s;
+         }
+        .socialicon i:hover{
+            color:#77A1D3
+        }
+        footer{
+            text-align: center;
+            padding: 1rem;
+          background: #ebd9c3;
+background: radial-gradient(circle, rgba(235, 217, 195, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            margin-top: 2rem;
+         }
